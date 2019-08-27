@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.h>
+#include<conio.h>
 #include<ctype.h>
 void push(char item,char s[100],int *t);
 char pop(char s[100],int *t);
