@@ -69,15 +69,10 @@ int main()
     puts("Created Linked List: ");
     printList(head);
     deleteNode(&head, 4);
-    puts("\nLinked List after Deletion at position 4: ");
+    puts("\nLinked List after Deletion at position 4: ");//deletion at the end
     printList(head);
     return 0;
-    puts("CReated linked list:");
-    printList(head);
-    deleteNode(&head, 1);
-    puts("\nLinked list after deletion at position 1: ");
-    printList(head);
-    return 0;
+    
 } 
 
 
