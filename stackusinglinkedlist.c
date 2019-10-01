@@ -22,7 +22,7 @@ int main()
 	int item,pos,ch,ch1;
 	do
 	{
-		printf("Enter\n1: Insertion \n2: Deletion from front Deletion from end \n3: Display the contents of the list\n");
+		printf("Enter\n1: Insertion \n2: Deletion \n3: Display the contents of the list\n");
 		scanf("%d",&ch);
 		switch(ch)
 		{
