@@ -98,9 +98,9 @@ int main() {
 	NODE head = NULL;
 	NODE p;
 	int ch,item,n,i,c,val,pos;
-	printf("Enter Choice\n1.Create a doubly linked list\n2.Insert node to the left of given node\n3.Delete a node based on specific value\n4.Display\n-1.Exit");
+	printf("Enter Choice\n1.Create a doubly linked list\n2.Insert node to the left of given node\n3.Delete a node based on specific value\n4.Display\n 5.Exit");
 	scanf("%d", &ch);
-	while (ch != -1) {
+	while (1) {
 		switch (ch) {
 			case 1: printf("Enter the no. of items\n");
 				scanf("%d", &n);
@@ -128,6 +128,8 @@ int main() {
 				break;
 			case 4: display(head);
 				break;
+                         case 5: exit(0);
+                                 break;
 			default: printf("Invalid input\n");
 		}
 		printf("Enter next choice\n");
